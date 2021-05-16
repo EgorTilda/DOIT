@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_200">#4F94FD</color>
+    <color name="blue_500">#FF3382F9</color>
+    <color name="blue_700">#2277F6</color>
+    <color name="orange_200">#FFF9AA33</color>
+    <color name="orange_700">#FFF89A0C</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red_priority">#A60000</color>
+    <color name="orange_priority">#FFF96E33</color>
+    <color name="yellow_priority">#FFF9CD33</color>
+    <color name="green_priority">#FF35C832</color>
+</resources>

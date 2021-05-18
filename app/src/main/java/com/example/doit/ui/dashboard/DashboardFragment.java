@@ -93,6 +93,7 @@ public class DashboardFragment extends Fragment {
         doneTaskBtn = (Button) root.findViewById(R.id.doneTaskBtn);
 
         doneTaskBtn.setEnabled(false);
+        resetBtn.setEnabled(false);
 
         count.setText(counter + ":00");
 
@@ -119,6 +120,7 @@ public class DashboardFragment extends Fragment {
                 public void onClick(View v) {
                     if(listTasks.size() > 0) {
                         if (!timer.isRunning) {
+                            resetBtn.setEnabled(true);
                             timer.start();
                             startPauseBtn.setText("Пауза");
                         } else {
